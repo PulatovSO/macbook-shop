@@ -211,9 +211,25 @@ input[type = 'radio']:checked + label {
 }
 
 .mac-btn-active {
-  border: 2px solid #000;
+  outline: 2px solid #000;
 }
 
 .mac-btn img {
   width: 90px;
+}
+
+
+/* slide */
+
+.image-slide-wrap {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.image-slide {
+  display: flex;
+  width: 300px;
+  transform: translateX(0px);
+  transition: all 0.5s ease-in-out;
 }
