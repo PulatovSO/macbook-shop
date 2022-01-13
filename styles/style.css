@@ -168,6 +168,19 @@ label {
   color: #000;
 }
 
+input {
+  position: absolute;
+  display: none;
+  z-index: -100;
+}
+input[type = 'radio']:checked + label {
+  border-color: #06c;
+}
+
+.display-none {
+  display: none;
+}
+ 
 /* images =============================================== */
 
 .mac-images {
