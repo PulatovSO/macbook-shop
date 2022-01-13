@@ -48,9 +48,9 @@ for(let label of labels) {
 add.addEventListener('click', () => {
   count++;
   if (ram16.checked) {
-    priceCount = count * 20000;
+    priceCount = count * 16354000;
   } else if (ram8.checked){
-    priceCount = count * 10000;
+    priceCount = count * 11602500;
   }
   amount.textContent = count;
   let numStr = String(priceCount);
@@ -64,9 +64,9 @@ remove.addEventListener('click', () => {
   if (count > 1) {
     count--;
     if (ram16.checked) {
-      priceCount = count * 20000;
+      priceCount = count * 16354000;
     } else if (ram8.checked){
-      priceCount = count * 10000;
+      priceCount = count * 11602500;
     }
     amount.textContent = count;
     sum.textContent = `${priceCount} so'm`;
